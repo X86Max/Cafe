@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login("ODg4ODY2Mjg4ODg4MzE1OTM0.YUY7PQ.kXg9uG8ag47Z87OUMuMWkfvzS8E");
+bot.login("voce deveria colocar o token aqui, tu acha que vou colocar o meu token aqui?");
 bot.once('ready', () => {
     bot.user.setActivity("Hmmm... Cafézin... \nDigite !ajuda pra ver os comandos.");
     console.log(`Bot online: ${bot.user.tag}!`);
