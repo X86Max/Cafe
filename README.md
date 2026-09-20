@@ -1,43 +1,51 @@
-# Café ☕️
+# Café ☕
+
+<p align="center">
+  <img src="kk%20cafe.png" width="400" alt="Café bot">
+</p>
 
 A small Discord bot inspired by the coffee machine at my university.
 
-I created this project in 2021 as a joke based on the machine students
-used on campus. By using the `!cafe` command, the bot would serve a
-virtual coffee — usually.
+Originally created in 2021, Café started as a joke based on the machine
+students used on campus. The `!cafe` command lets users request a virtual
+coffee — although the machine doesn't always cooperate.
 
-## ☕ The coffee machine
+## ☕ How it works
 
-Just like its real-life inspiration, things didn't always go according
-to plan.
+Use:
 
-The bot randomly responded with events such as:
+`!cafe`
 
-- ☕ Your coffee is ready!
+Most of the time, you get your coffee. Sometimes, however:
+
 - ❌ The machine is under maintenance.
-- 💵 Your banknote is crumpled. Try again!
-- ❌ The machine ran out of coffee.
-- ☕🥄 The rare spoon event.
+- 💵 Your banknote is too crumpled.
+- ☕ The machine has run out of coffee.
+- ☕🥄 You get the rare **spoon**.
 
-Yes, the spoon was rare.
+Yes, the spoon is rare.
 
-## Commands
+## 🤖 Commands
 
 - `!cafe` — Request a coffee.
 - `!ajuda` — Display the help message.
 
-The bot also logged command usage to a dedicated Discord channel.
+The bot also includes command logging to a dedicated Discord channel.
 
-## Technical details
+## 🕰️ History
 
-Built with JavaScript and Discord.js.
+Café was originally created in **2021** using Discord.js.
 
-The project uses random events to simulate the behavior of the original
-coffee machine and Discord reactions for the results.
+In **2025**, I revisited the project and updated it to work with
+Discord.js v14 while preserving the original idea and behavior.
 
-## Status
+## 🛠️ Built with
 
-Historical project — 2021.
+- JavaScript
+- Node.js
+- Discord.js
 
-The original Discord account and bot no longer exist, so the project is
-preserved here as part of my early programming history.
+## 📌 Status
+
+A small personal project preserved from my early programming experiments
+and later revisited in 2025.
